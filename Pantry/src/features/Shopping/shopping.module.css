@@ -1,0 +1,79 @@
+
+
+
+.item {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 0.6em;
+    width: 14rem;
+    height: 18rem;
+    border-radius: 10px;
+    border: 1.2px solid rgb(160, 160, 160);
+}
+
+.item img {
+    max-width: 60%;
+    min-height: 60%;
+    margin: 0.5rem 0;
+    border-radius: 10%;
+    
+}
+
+.item p {
+    margin: 0 0 0.5rem 0; 
+    
+}
+
+.item h3 {
+    margin: 0.1rem 0;
+    font-size: 1.5em;
+}
+
+
+
+
+.cartItem {
+    background-color: rgb(151, 151, 151);
+    margin: 0.3em;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.cartItem * {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    color: black !important;
+}
+
+
+.cartItem div {
+    margin: 0 4em 0 4em;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.cartItem button {
+    padding: 0;
+}
+
+
+
+.editInCart {
+    display: flex;
+}
+
+.editInCart * {
+    margin: auto 1em;
+}
+
+.editInCart button {
+    background-color: rgb(135, 189, 135);
+    border: 1px solid black;
+    border-radius: 0.2em;
+}

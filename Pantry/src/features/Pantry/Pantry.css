@@ -1,0 +1,61 @@
+.pantry {
+    background-color: black;
+    min-height: 800px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-top: 6em;
+}
+
+.right {
+    width: 65%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 2px 2px rgb(170, 170, 170);
+    border: 2px solid rgb(147, 147, 147);
+}
+
+.left {
+    width: 35%;
+    position: relative;
+    justify-content: flex-start;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(147, 147, 147);
+}
+
+.pantry-info {
+    display: inline-flex;
+    border: 1px solid rgb(17, 17, 17);
+    width: 100%;
+    align-items: center;
+}
+
+.pantry-info button {
+    font-weight: 300;
+    font-size: 0.8em;
+    padding: 0.2em;
+    margin: 2em 0.5em;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 3em;
+    
+}
+
+table tr {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+}
+
+table th,
+table td {
+    flex: 1;
+    text-align: center;
+    
+}

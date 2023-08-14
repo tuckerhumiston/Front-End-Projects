@@ -1,0 +1,70 @@
+.cart-page {
+    margin: 0;
+    /* padding: 0em 2em; */
+
+    display: flex;
+    align-items: center;
+}
+
+.cart-page h1 {
+    color: black !important;
+    margin: 0;
+    margin-bottom: 1em;
+}
+
+.payment {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: blanchedalmond;
+    text-align: center;
+    margin: 2em 0 0 2em;
+}
+
+.payment form{
+    display: inline-flex;
+    flex-direction: column;
+    margin: 3em;
+}
+
+.payment form input {
+    margin: 0.5em 0;
+    padding: 1em;
+}
+
+.payment form label {
+    display: inline-flex;
+    margin-top: 1em;
+}
+
+.shopping-cart {
+    width: 70%;
+}
+
+.shopping-cart .checkout-button {
+    float: right;
+    margin-top: 1em;
+    padding: 0.3em 0.8em;
+    border: 1.4px solid black;
+    border-radius: 0.3em;
+}
+
+/*  */
+
+.date-cvv {
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.date {
+    width: 60%;
+}
+
+.cvv {
+    width: 30%;
+}
+
+.cvv input {
+    width: 50%;
+}
