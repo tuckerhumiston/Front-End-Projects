@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+}
+
+html {
+    font-size: 16px;
+}
+
+
+
+
+/* Navigation */
+
+nav {
+    height: 4.5em;
+    width: 100%;
+    /* background-color: rgb(35, 98, 169); */
+    z-index: 3;
+    background: linear-gradient(rgb(28, 74, 127) , rgb(35, 98, 169));
+    overflow: hidden;
+
+}
+
+nav img {
+    height: 100%;
+    /* filter: drop-shadow(0.5px 0.5px 0.5px white); */
+}
+
+nav ul {
+    height: 100%;
+    list-style: none;
+    text-decoration: underline white;
+    display: flex;
+    float: right;
+
+    align-items: center;
+}
+
+nav li {
+    margin: 3rem;
+    color: whitesmoke;
+    font-size: 1.25em;
+}
+
+nav a:link {
+    color: white;
+}
+nav a:visited {
+    color: white;
+}
+
+
+/* BANNER */
+
+.banner {
+    width: 100%;
+    height: 32em;
+    background-image: url("./images/Gym.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    color: white;
+    text-align: center;
+}
+
+.banner h1 {
+    font-size: 4em;
+    text-shadow: 2px 2px gray;
+}
+
+.testbox {
+    background: #333333A9;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: 2;
+}
+
+@media only screen and (min-width: 429px){
+    .testbox {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .testbox .button-30 {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 428px){
+    nav {
+        display: none;
+    }
+    main .banner {
+        height: 14em;
+    }
+    .testbox h1 {
+        margin-top: 1em;
+    }
+    .testbox .button-30 {
+        margin-top: 2em;
+    }
+}
+
+/* TESTAMONIALS */
+
+.testamonials {
+    text-align: center;
+    padding: 2.8rem 0;
+
+    /* background-color: grey; */
+    background: linear-gradient(gray, rgb(52, 52, 52));
+    font-family: 'Open Sans';
+}
+
+
+.box p {
+    margin: 1rem;
+}
+
+
+
+/* FOOTER */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    line-height: 2em;
+    text-align: center;
+    font-family: 'Arial';
+
+    background-color: rgb(34, 34, 34);
+    height: 10rem;
+    color: whitesmoke;
+}
